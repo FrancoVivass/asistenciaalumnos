@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soporte - Asistencia de Alumnos</title>
+  <link rel="stylesheet" href="./support.component.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sección de Preguntas Frecuentes (FAQ) -->
+    <section class="faq">
+      <h1>Preguntas Frecuentes (FAQ)</h1>
+      <div class="faq-item">
+        <button class="faq-question">¿Cómo registro un nuevo alumno?</button>
+        <div class="faq-answer">
+          <p>Para registrar un nuevo alumno, dirígete al panel de administración y selecciona la opción "Agregar Alumno". Completa los campos requeridos y guarda los cambios. Si necesitas ayuda durante el proceso, consulta la guía en línea o contacta con nuestro soporte.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">¿Qué hago si olvidé mi contraseña?</button>
+        <div class="faq-answer">
+          <p>Si olvidaste tu contraseña, haz clic en "Olvidé mi contraseña" en la página de inicio de sesión. Recibirás un correo electrónico con un enlace para restablecerla. Si no recibes el correo, revisa tu carpeta de spam o contacta con nuestro equipo de soporte.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">¿Cómo actualizo la información de un alumno?</button>
+        <div class="faq-answer">
+          <p>Para actualizar la información de un alumno, busca al alumno en el panel de administración y selecciona "Editar". Realiza los cambios necesarios y guarda los cambios. Asegúrate de revisar la información antes de guardarla para evitar errores.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">¿Cómo puedo generar un informe de asistencia?</button>
+        <div class="faq-answer">
+          <p>Para generar un informe de asistencia, ve a la sección de informes en el panel de administración. Selecciona el período deseado y los criterios del informe. Puedes exportar el informe en formatos PDF o Excel para su análisis.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">¿Qué hacer si encuentro un error en el sistema?</button>
+        <div class="faq-answer">
+          <p>Si encuentras un error en el sistema, por favor, repórtalo a nuestro equipo de soporte a través del formulario de contacto. Proporciona una descripción detallada del problema y los pasos para reproducirlo, si es posible.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">¿Cómo añado un nuevo curso para los alumnos?</button>
+        <div class="faq-answer">
+          <p>Para añadir un nuevo curso, accede al panel de administración y selecciona "Cursos". Luego, elige "Agregar Curso" y completa los detalles necesarios. Guarda los cambios para que el nuevo curso esté disponible para los alumnos.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">¿Puedo personalizar los informes de asistencia?</button>
+        <div class="faq-answer">
+          <p>Sí, puedes personalizar los informes de asistencia seleccionando diferentes filtros y opciones de visualización en la sección de informes. Puedes guardar estas configuraciones para futuros informes.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="contact">
+      <h1>Contacto</h1>
+      <p>Si necesitas ayuda adicional, no dudes en contactarnos. Nuestro equipo está disponible para asistirte con cualquier problema o pregunta que puedas tener.</p>
+      <form action="mailto:support@asistenciaalumnos.com" method="post" enctype="text/plain">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Sección de Recursos -->
+    <section class="resources">
+      <h1>Recursos Adicionales</h1>
+      <p>Consulta los siguientes recursos para obtener más información y asistencia:</p>
+      <ul>
+        <li><a href="guia-de-usuario.pdf" target="_blank">Guía del Usuario (PDF)</a></li>
+        <li><a href="tutoriales.html">Tutoriales en Línea</a></li>
+        <li><a href="https://www.forum-soporte.com" target="_blank">Foro de Soporte</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PL1234567890" target="_blank">Videos de Capacitación</a></li>
+      </ul>
+    </section>
+
+    <!-- Sección de Horarios de Soporte -->
+    <section class="hours">
+      <h1>Horarios de Soporte</h1>
+      <p>Nuestro equipo de soporte está disponible en los siguientes horarios:</p>
+      <table>
+        <tr>
+          <th>Día</th>
+          <th>Horario</th>
+        </tr>
+        <tr>
+          <td>Lunes - Viernes</td>
+          <td>9:00 AM - 6:00 PM</td>
+        </tr>
+        <tr>
+          <td>Sábados</td>
+          <td>10:00 AM - 2:00 PM</td>
+        </tr>
+        <tr>
+          <td>Domingos</td>
+          <td>Cerrado</td>
+        </tr>
+      </table>
+    </section>
+  </div>
+  <script src="../../assets/js/script.support.js"></script>
+</body>
+</html>

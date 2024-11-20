@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Header</title>
+    <link href="/app/encabezado/encabezado.component.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <section class="header">
+        <div class="announcement-bar">
+            <p>Esto es un proyecto creado por Dante, Franco y Matias, pulsa "Leer más" para más información de cómo fue creado <a href="#">Leer más.</a></p>
+        </div>
+        <div class="navigation-bar">
+          <a href="/"><div class="company-col">
+                <!-- Aquí puedes agregar el logo si lo necesitas -->
+            </div></a>
+            <div class="link-col">
+                <ul>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/contenido/">Proyecto</a></li>
+                    <li><a href="/jejej/">Como Funciona</a></li>
+                    <li><a href="/support/">Soporte</a></li>
+                    <li><a href="/about/">Acerca De</a></li>
+                    <li><a class="cta-button" href="/registro/">Iniciar Sesión/Registrarse</a></li>
+                </ul>
+            </div>
+            <div class="link-col-mobile">
+                <div class="menu-button" id="menuButton">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile Overlay -->
+    <section class="mobile-overlay" id="mobileOverlay">
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="close-button" id="closeButton"><p>Cerrar</p></div>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/proyect/">Proyecto</a></li>
+                <li><a href="/jejej/">Como Funciona</a></li>
+                <li><a href="/support">Soporte</a></li>
+                <li><a href="/about">Acerca De</a></li>
+                <li><a class="cta-button" href="/registro/">Inicio/Registro</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="assets/js/script.encabezado.js"></script>
+</body>
+</html>

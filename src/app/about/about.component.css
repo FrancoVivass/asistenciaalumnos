@@ -1,0 +1,121 @@
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #333;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #007BFF;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.intro, .mission-vision, .team, .history, .testimonials, .media-contact {
+  margin-bottom: 40px;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+
+.team-photo {
+  background-image: url(../img/Sanro.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+  border: 3px solid #007BFF;
+}
+.team-photo1 {
+  background-image: url(../img/Dante.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+  border: 3px solid #007BFF;
+}
+.team-photo2 {
+  background-image: url(../img/Vivas.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+  border: 3px solid #007BFF;
+}
+
+.team-info {
+  flex: 1;
+}
+
+.team-member h3 {
+  margin: 0 0 5px;
+  font-size: 20px;
+  color: #007BFF;
+}
+
+.testimonials {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.testimonial {
+  margin-bottom: 20px;
+}
+
+  .testimonial blockquote {
+    margin: 0;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-left: 5px solid #007BFF;
+  }
+
+  .testimonial p {
+    margin: 5px 0;
+  }
+
+.media-contact {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+  .media-contact p {
+    margin: 5px 0;
+    font-size: 16px;
+  }

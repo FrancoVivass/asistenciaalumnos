@@ -1,0 +1,2 @@
+C:\Users\roddy\OneDrive\Escritorio\ProyectoAngular_Ejemplo\ProyectoAngular_Ejemplo\obj\Debug\ProyectoAngular_Ejemplo.esproj.CoreCompileInputs.cache
+C:\Users\alped\Downloads\ProyectoAngular_Ejemplo\ProyectoAngular_Ejemplo\obj\Debug\ProyectoAngular_Ejemplo.esproj.CoreCompileInputs.cache
