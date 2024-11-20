@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?Roboto&display=swap');
 
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
+a{
+  cursor: url('../../assets/link.cur'),auto ;
+  }
 
+  .btn {
+    cursor: url('../../assets/precision.cur'), pointer;
+  }
 * {
   font-family: 'Nunito', sans-serif;
 
@@ -114,7 +119,7 @@ border-style: solid;
   height: 90px;
   overflow: hidden;
   width: 100%;
-  background-color: #ffffffde;
+  background-color: #0000004d;
   box-shadow: 0px 0px 10px rgba(33, 33, 33, 0.2);
   transition: 0.6s;
   border-bottom:#1b40f7 solid 5px ;
@@ -132,7 +137,7 @@ border-style: solid;
   justify-content: center;
 }
 .announcement-bar a {
-  color: #000000;
+  color: #ffffff;
 }
 .announcement-bar a:hover {
   text-decoration: none;
@@ -158,7 +163,7 @@ border-style: solid;
 .navigation-bar a {
   transition: 0.5s;
   text-decoration: none;
-  color: #212121;
+  color: #ffffff;
 }
 .navigation-bar a:hover {
   color: #1a3be2;

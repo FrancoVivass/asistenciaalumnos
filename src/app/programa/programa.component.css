@@ -46,7 +46,9 @@ border-style: solid;
   }
 
 
-
+.hero-section{
+  padding-bottom: 40px;
+}
 
 
 
@@ -90,6 +92,7 @@ padding-top: 100px;
   }
 
 .download-buttons {
+  padding-top: 40px;
   display: flex;
   justify-content: center;
   margin-bottom: 300px;
@@ -107,6 +110,7 @@ padding-top: 100px;
 
 
 .imgwindows {
+  background-image: url(../../assets/windows.ico);
   height: 3rem;
   background-size: contain;
   background-repeat: no-repeat;
