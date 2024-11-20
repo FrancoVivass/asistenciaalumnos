@@ -5,8 +5,11 @@ import { AppComponent } from './app.component';
 import { EncabezadoComponent } from './encabezado/encabezado.component';
 import { routes } from '../app/app.routes'; // Importa tus rutas
 import { ContenidoComponent } from './contenido/contenido.component';
-import { RegistroComponent } from './registro/registro.component';
-
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms'; 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 // inicio servicio
 
 // fin inicio
@@ -14,16 +17,15 @@ import { RegistroComponent } from './registro/registro.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ContenidoComponent,
-    EncabezadoComponent,
-    RegistroComponent,
-    
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes) // Configura el enrutamiento aquí
+    RouterModule.forRoot(routes),
+    HttpClientModule,// Configura el enrutamiento aquí
+    FormsModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent,]
+  bootstrap: []
 })
 export class AppModule { }

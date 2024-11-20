@@ -1,7 +1,71 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?Roboto&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  font-family: 'Nunito', sans-serif;
+
+}
 body {
   margin: 0;
 }
+
+:root{
+  --color-primario:#007BFF;
+  --color-secundario:#0026ff;
+  }
+.clima{
+  justify-content: center;
+  justify-self: center;
+    width: 20px;
+    height: 20px;
+    top: 0%;
+    display:inline;
+  
+  }
+
+  
+                        
+                            
+
+
+  .btn {
+      cursor: pointer; 
+      border: 2px solid rgb(0, 0, 0); 
+      font-size: 10px; 
+      color: rgb(255, 255, 255); 
+      padding: 7px 15px; 
+      transition: 556ms; 
+      width: 150px; 
+      border-radius: 50px; 
+      background: linear-gradient(90deg, rgb(0, 68, 255) 0%, rgb(5, 70, 145) 100%); 
+      font-weight: 100; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      --hover-width: 150px; 
+      --hover-color: #000000; 
+      --hover-bgc: #ffffff; 
+      --hover-borderc: var(--color-primario); 
+      flex-direction: row;
+  }
+
+
+  .btn:hover{
+      
+
+width: 200px;
+background: var(--color-secundario) none repeat scroll 0% 0% / auto padding-box border-box;
+border-color: rgb(0, 0, 0);
+
+border-style: solid;
+  }
+
+
+
 
 
 /* Asegúrate de que estas reglas estén en tu archivo encabezado.component.css */
@@ -15,7 +79,7 @@ body {
   height: 100vh;
   width: 100%;
   position: fixed;
-  z-index: 5;
+  z-index: 100;
   left: 0;
   top: 0;
   background-color: rgba(26, 59, 226, 0.9);
@@ -47,11 +111,13 @@ body {
   font-family: "Lato", sans-serif;
   position: fixed;
   top: 0;
+  height: 90px;
   overflow: hidden;
   width: 100%;
-  background-color: #fff;
+  background-color: #ffffffde;
   box-shadow: 0px 0px 10px rgba(33, 33, 33, 0.2);
   transition: 0.6s;
+  border-bottom:#1b40f7 solid 5px ;
 }
 .header a,
 .header p,
@@ -84,7 +150,7 @@ body {
 
 .navigation-bar {
   
-  height: 65px;
+  height: 45px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   padding: 1rem 0;
@@ -100,14 +166,15 @@ body {
 
 
 .company-col {
-  margin-top: -63px;
-  height: 14rem;
+  margin-top: -50px;
+  height: 12rem;
   background-image: url(../img/logo.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
   justify-content: flex-start;
+  transition: filter 0.3s ease, transform 0.3s ease; 
 
 }
 .company-col a {
@@ -118,6 +185,12 @@ body {
 
 
 }
+  .company-col:hover {
+    filter: brightness(0) saturate(100%) invert(100%); /* La imagen se oscurece y se vuelve en negro */
+      transform: scale(1.1);
+      filter: brightness(0); /* Hace que el logo se oscurezca completamente */
+      color: blue; 
+    }
 
 .link-col{
   color: #000000;
@@ -132,7 +205,7 @@ body {
 }
 .link-col li {
   color: #000000;
-  font-size: 29px;
+  font-size: 20px;
   padding: 0 2rem;
   white-space: nowrap;
   transition: 0.3s;
