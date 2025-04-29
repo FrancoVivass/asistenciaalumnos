@@ -1,6 +1,11 @@
 console.log("hola")
 
 /*===== LOGIN SHOW and HIDDEN =====*/
+console.log("Cargando Fondo")
+
+
+console.log("fondoCargado")
+
 
 // Espera a que el documento esté listo
 console.log("Cargando scroll")

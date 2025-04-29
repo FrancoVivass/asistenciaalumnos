@@ -28,3 +28,25 @@ signIn.addEventListener('click', ()=>{
 
     // Aquí agregas la funcionalidad adicional
 });
+
+
+console.log("Cargando Modos")
+
+document.addEventListener("DOMContentLoaded", () => {
+    const themeSwitch = document.getElementById("themeSwitch");
+    const body = document.body;
+  
+    // Aplicar el tema guardado
+    if (localStorage.getItem("dark-mode") === "true") {
+      body.classList.add("dark-mode");
+    }
+  
+    themeSwitch.addEventListener("click", () => {
+      const isDarkMode = body.classList.toggle("dark-mode");
+      localStorage.setItem("dark-mode", isDarkMode);
+    });
+  });
+  
+  
+
+console.log("Modos cargados")

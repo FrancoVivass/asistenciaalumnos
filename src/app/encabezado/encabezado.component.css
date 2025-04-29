@@ -7,9 +7,7 @@ a{
   cursor: url('../../assets/link.cur'),auto ;
   }
 
-  .btn {
-    cursor: url('../../assets/precision.cur'), pointer;
-  }
+
 * {
   font-family: 'Nunito', sans-serif;
 
