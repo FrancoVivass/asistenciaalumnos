@@ -16,7 +16,21 @@ import { AboutComponent } from './about/about.component'
 })
 export class AppComponent {
   title = '';
+  showLogin = false;
+  showRegister = false;
 
+  openLogin() {
+    this.showLogin = true;
+  }
+
+  openRegister() {
+    this.showRegister = true;
+  }
+
+  closeModals() {
+    this.showLogin = false;
+    this.showRegister = false;
+  }
 
   
 }

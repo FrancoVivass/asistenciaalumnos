@@ -3,7 +3,6 @@ console.log("hola")
 /*===== LOGIN SHOW and HIDDEN =====*/
 console.log("Cargando Fondo")
 
-
 console.log("fondoCargado")
 
 

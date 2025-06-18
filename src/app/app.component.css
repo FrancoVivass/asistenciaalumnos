@@ -5,24 +5,39 @@
   top:0;
   cursor: url('../assets/normal.cur'), auto;
   font-family: 'Nunito', sans-serif;
+  
 
 }
-a{
-cursor: url(../assets/link.cur) auto;
-}
+
 button {
   cursor: url('../assets/busy.cur'), pointer;
+  filter: hue-rotate(-50deg) saturate(600%);
 }
 
 :root {
-  --background-color: #121212;
+  --background-color: #180101;
+  --color-secundario:#646A6D;
   --text-color: white;
+  --logo-negro: url('../app/img/logo2.png'); 
+  --Color-Contenido: white;
+  --logoestadistica:url(./img/estadisticavectorblanco.png);
+  --logolibro:url(./img/vectorlibroblanco.png);
+  --logobolsa:url(./img/bolsavectordineroblanco.png);
+
 }
 
-body.dark-mode {
-  --background-color: white;
-  --text-color:  #121212;
+body.dark-mode {  --logobolsa:url(./img/bolsavectordinero.png);
+  --logolibro:url(./img/vectorlibro.png);
+  --logoestadistica:url(./img/estadisticavector.png);
+
+  --logo-negro: url('../app/img/logo.png'); 
+  --background-color: #d4d4d4;
+  --text-color:  rgb(0, 0, 0);
+  --color-secundario:#6d2525 ;
+--Color-Contenido: rgb(0, 0, 0);
 }
+
+
 
 
 body{
@@ -124,7 +139,7 @@ body.dark-mode .slider::before {
   position: absolute;
   top: 3%;
   left: 10%;
-  background: #0af;
+  background: var(--color-secundario);
   width: 1500px;
   height: 1300px;
   margin-left: -150px;
@@ -137,7 +152,7 @@ body.dark-mode .slider::before {
 .wave.-three {
   animation: drift 7500ms infinite linear;
 	position: fixed;
-	background-color: #77daff;
+	background-color: var(--background-color);
 }
 
 .wave.-two {
