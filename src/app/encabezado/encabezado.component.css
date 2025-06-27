@@ -56,15 +56,6 @@ body {
   }
 
 
-  .btn:hover{
-      
-
-width: 200px;
-background: var(--color-secundario) none repeat scroll 0% 0% / auto padding-box border-box;
-border-color: rgb(0, 0, 0);
-
-border-style: solid;
-  }
 
 
 
